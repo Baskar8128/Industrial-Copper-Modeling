@@ -4,8 +4,3 @@ pandas==1.3.4
 numpy==1.21.4
 scikit-learn==1.0.2
 streamlit==1.22.0
-
-# Data Link
-https://docs.google.com/spreadsheets/d/18eR6DBe5TMWU9FnIewaGtsepDbV4BOyr/edit?rtpof=true&sd=true#gid=462557918
-
-# Streamlit application Link
