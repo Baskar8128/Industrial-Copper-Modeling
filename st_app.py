@@ -25,7 +25,8 @@ product = ['611112', '611728', '628112', '628117', '628377', '640400', '640405',
            '1668701376', '1668701698', '1668701718', '1668701725', '1670798778', '1671863738',
            '1671876026', '1690738206', '1690738219', '1693867550', '1693867563', '1721130331', '1722207579']
 
-with tab1:
+try:
+    with tab1:
         with st.form("form1"):
             col1, col2, col3 = st.columns([5, 2, 5])
             with col1:
@@ -62,7 +63,11 @@ with tab1:
                     new_pred = loaded_model.predict(new_sample1)[0]
                     st.write('## :green[Predicted selling price:] ', np.exp(new_pred))
 
-with tab2:
+except Exception as e:
+    st.write()
+
+try:
+    with tab2:
         with st.form("form2"):
             col1, col2, col3 = st.columns([5, 1, 5])
             with col1:
@@ -100,3 +105,6 @@ with tab2:
                             st.write('## :green[The Status is Won] ')
                         else:
                             st.write('## :red[The status is Lost] ')
+
+except Exception as e:
+    st.write()
