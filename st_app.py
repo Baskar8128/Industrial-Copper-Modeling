@@ -3,7 +3,6 @@ import pickle
 import numpy as np
 
 st.set_page_config(page_title='Industrial Copper Modeling', layout="wide")
-st.header('Industrial Copper Modelling')  # title
 
 tab1, tab2 = st.tabs(["Predict Selling Price", " Predict Status"])
 
