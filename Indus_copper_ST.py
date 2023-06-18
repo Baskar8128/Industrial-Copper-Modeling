@@ -1,10 +1,4 @@
 import streamlit as st
-from sklearn.model_selection import train_test_split
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.preprocessing import StandardScaler, OneHotEncoder
-from sklearn.metrics import mean_squared_error
-from sklearn.model_selection import GridSearchCV
-from sklearn.preprocessing import LabelBinarizer
 import pickle
 import numpy as np
 
