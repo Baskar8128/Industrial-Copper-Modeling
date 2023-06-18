@@ -1,4 +1,4 @@
-Application Link: https://baskar8128-industrial-copper-modeling-indus-copper-st-3vo12n.streamlit.app/
+Application Link: https://baskar8128-industrial-copper-modeling-st-app-2xf6fv.streamlit.app/
 
 # Industrial-Copper-Modeling-Project
 Introduction
